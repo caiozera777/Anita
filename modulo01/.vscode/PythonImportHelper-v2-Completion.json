@@ -1,0 +1,639 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "shuffle",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "comisao",
+        "kind": 5,
+        "importPath": "aula07",
+        "description": "aula07",
+        "peekOfCode": "comisao = 54765476325452378428734687236\n#boleano true false\nverdadeiro : bool = False\nfalso = True\n#flutuante numero com casas decimais\nslario : = open('myfile.txt', 'w') = 2500.00",
+        "detail": "aula07",
+        "documentation": {}
+    },
+    {
+        "label": "falso",
+        "kind": 5,
+        "importPath": "aula07",
+        "description": "aula07",
+        "peekOfCode": "falso = True\n#flutuante numero com casas decimais\nslario : = open('myfile.txt', 'w') = 2500.00",
+        "detail": "aula07",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = True\nidade = int(input(\"digite sua idade >> \"))\n#igual a 18\nvalidador = (idade == 18)\nprint(f\"a idade é igual a 18? {validador}\")\n#diferente de 18\nvalidador = (idade != 18)\nprint(f\"a idade é diferente de 18? {validador}\")\nvalidador = ( idade > 18)\nprint(f\"a idade é maior de 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "idade = int(input(\"digite sua idade >> \"))\n#igual a 18\nvalidador = (idade == 18)\nprint(f\"a idade é igual a 18? {validador}\")\n#diferente de 18\nvalidador = (idade != 18)\nprint(f\"a idade é diferente de 18? {validador}\")\nvalidador = ( idade > 18)\nprint(f\"a idade é maior de 18? {validador}\")\nvalidador = ( idade < 18)",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = (idade == 18)\nprint(f\"a idade é igual a 18? {validador}\")\n#diferente de 18\nvalidador = (idade != 18)\nprint(f\"a idade é diferente de 18? {validador}\")\nvalidador = ( idade > 18)\nprint(f\"a idade é maior de 18? {validador}\")\nvalidador = ( idade < 18)\nprint(f\"a idade é menor que 18? {validador}\")\nvalidador = (idade >= 18)",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = (idade != 18)\nprint(f\"a idade é diferente de 18? {validador}\")\nvalidador = ( idade > 18)\nprint(f\"a idade é maior de 18? {validador}\")\nvalidador = ( idade < 18)\nprint(f\"a idade é menor que 18? {validador}\")\nvalidador = (idade >= 18)\nprint(f\"a idade é maior ou igual a 18? {validador}\")\nvalidador = (idade <= 18)\nprint(f\"a idade é menor ou igula a 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = ( idade > 18)\nprint(f\"a idade é maior de 18? {validador}\")\nvalidador = ( idade < 18)\nprint(f\"a idade é menor que 18? {validador}\")\nvalidador = (idade >= 18)\nprint(f\"a idade é maior ou igual a 18? {validador}\")\nvalidador = (idade <= 18)\nprint(f\"a idade é menor ou igula a 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = ( idade < 18)\nprint(f\"a idade é menor que 18? {validador}\")\nvalidador = (idade >= 18)\nprint(f\"a idade é maior ou igual a 18? {validador}\")\nvalidador = (idade <= 18)\nprint(f\"a idade é menor ou igula a 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = (idade >= 18)\nprint(f\"a idade é maior ou igual a 18? {validador}\")\nvalidador = (idade <= 18)\nprint(f\"a idade é menor ou igula a 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "validador",
+        "kind": 5,
+        "importPath": "aula08",
+        "description": "aula08",
+        "peekOfCode": "validador = (idade <= 18)\nprint(f\"a idade é menor ou igula a 18? {validador}\")",
+        "detail": "aula08",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula10",
+        "description": "aula10",
+        "peekOfCode": "n1 =   int(input(\"digite o primeiro numero\"))\nn2 =   int(input(\"digite o segundo numero\"))\nsoma = n1 + n2\nprint(f'''\n      o resultado da soma foi {soma}\n      o primeiro numero digitado foi {n1}\n      o segundo numero digitado foi {n2}\n      ''')",
+        "detail": "aula10",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula10",
+        "description": "aula10",
+        "peekOfCode": "n2 =   int(input(\"digite o segundo numero\"))\nsoma = n1 + n2\nprint(f'''\n      o resultado da soma foi {soma}\n      o primeiro numero digitado foi {n1}\n      o segundo numero digitado foi {n2}\n      ''')",
+        "detail": "aula10",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "aula10",
+        "description": "aula10",
+        "peekOfCode": "soma = n1 + n2\nprint(f'''\n      o resultado da soma foi {soma}\n      o primeiro numero digitado foi {n1}\n      o segundo numero digitado foi {n2}\n      ''')",
+        "detail": "aula10",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula11",
+        "description": "aula11",
+        "peekOfCode": "n1 = int(input(\"digite o primeiro numero\"))\nn2 = float(input(\"digite o segundo numero\"))\nsoma = n1 + n2\nprint(\"o tipo primitivo da variavel n1 é\", type(n1))\nprint(\"o tipo primitivo da variavel n2 é\", type(n2))",
+        "detail": "aula11",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula11",
+        "description": "aula11",
+        "peekOfCode": "n2 = float(input(\"digite o segundo numero\"))\nsoma = n1 + n2\nprint(\"o tipo primitivo da variavel n1 é\", type(n1))\nprint(\"o tipo primitivo da variavel n2 é\", type(n2))",
+        "detail": "aula11",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "aula11",
+        "description": "aula11",
+        "peekOfCode": "soma = n1 + n2\nprint(\"o tipo primitivo da variavel n1 é\", type(n1))\nprint(\"o tipo primitivo da variavel n2 é\", type(n2))",
+        "detail": "aula11",
+        "documentation": {}
+    },
+    {
+        "label": "#soma",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "#soma = 10 + 10\n#print(soma)\nn1 = int(input(\"digite um numero\"))\nn2 = int(input(\"digite um numero\"))\nn3 = int(input(\"digite um numero\"))\nn4 = int(input(\"digite um numero\"))\nsoma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      ",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "n1 = int(input(\"digite um numero\"))\nn2 = int(input(\"digite um numero\"))\nn3 = int(input(\"digite um numero\"))\nn4 = int(input(\"digite um numero\"))\nsoma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      \no valor da terceira variavel é {n3}      \no valor da quarta variavel é {n4}      ",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "n2 = int(input(\"digite um numero\"))\nn3 = int(input(\"digite um numero\"))\nn4 = int(input(\"digite um numero\"))\nsoma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      \no valor da terceira variavel é {n3}      \no valor da quarta variavel é {n4}      \n ''')",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "n3 = int(input(\"digite um numero\"))\nn4 = int(input(\"digite um numero\"))\nsoma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      \no valor da terceira variavel é {n3}      \no valor da quarta variavel é {n4}      \n ''')",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "n4 = int(input(\"digite um numero\"))\nsoma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      \no valor da terceira variavel é {n3}      \no valor da quarta variavel é {n4}      \n ''')",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 5,
+        "importPath": "aula12",
+        "description": "aula12",
+        "peekOfCode": "soma = n1 + n2 + n3 + n4\nprint(f''' \no valor da primeira variavel é {n1}\no valor da segunda variavel variavel é {n2}      \no valor da terceira variavel é {n3}      \no valor da quarta variavel é {n4}      \n ''')",
+        "detail": "aula12",
+        "documentation": {}
+    },
+    {
+        "label": "texte",
+        "kind": 5,
+        "importPath": "aula13",
+        "description": "aula13",
+        "peekOfCode": "texte = input('digite qualquer coisa')\n#função condição com responsabilidade unica\nprint(\"tem espaço?\", texte.isspace())\nprint(\"contem caracter numerico?\", texte.isnumeric())\nprint(\"contem caracter alfabetico?\", texte.isalpha())\nprint(\"contem caracter alfanumerico?\", texte.isalnum())",
+        "detail": "aula13",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "aula14",
+        "description": "aula14",
+        "peekOfCode": "nome = input(\"digite seu nome\")\nidade = int(input(\"digite sua idade\"))\ncpf = input(\"digite seu cpf\")\n#polimorfismo o quanto um operador matematico\n# exerce uma alteração quantica a uma variavel ou um valor\nhastag = \"=\"*20\nprint(hastag , \"menu\", hastag)\nprint(nome)\nprint(idade)\nprint(cpf)",
+        "detail": "aula14",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "aula14",
+        "description": "aula14",
+        "peekOfCode": "idade = int(input(\"digite sua idade\"))\ncpf = input(\"digite seu cpf\")\n#polimorfismo o quanto um operador matematico\n# exerce uma alteração quantica a uma variavel ou um valor\nhastag = \"=\"*20\nprint(hastag , \"menu\", hastag)\nprint(nome)\nprint(idade)\nprint(cpf)",
+        "detail": "aula14",
+        "documentation": {}
+    },
+    {
+        "label": "cpf",
+        "kind": 5,
+        "importPath": "aula14",
+        "description": "aula14",
+        "peekOfCode": "cpf = input(\"digite seu cpf\")\n#polimorfismo o quanto um operador matematico\n# exerce uma alteração quantica a uma variavel ou um valor\nhastag = \"=\"*20\nprint(hastag , \"menu\", hastag)\nprint(nome)\nprint(idade)\nprint(cpf)",
+        "detail": "aula14",
+        "documentation": {}
+    },
+    {
+        "label": "hastag",
+        "kind": 5,
+        "importPath": "aula14",
+        "description": "aula14",
+        "peekOfCode": "hastag = \"=\"*20\nprint(hastag , \"menu\", hastag)\nprint(nome)\nprint(idade)\nprint(cpf)",
+        "detail": "aula14",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula15",
+        "description": "aula15",
+        "peekOfCode": "n1 = float(input(\"digite o primeiro numero \"))\nn2 = float(input(\"digite o numero\"))\n#procedencia aritimetica\n#nota = (n1 + n2) /2\n#faça um print com intepolação de string\n#exibindo o valor digitado na primeiras variavel\n#depois exibindo o valor digitado na segunda variavel\n#depois o valor total da nota\nprint(f''' \no valor da primeiro variavel é {n1}",
+        "detail": "aula15",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula15",
+        "description": "aula15",
+        "peekOfCode": "n2 = float(input(\"digite o numero\"))\n#procedencia aritimetica\n#nota = (n1 + n2) /2\n#faça um print com intepolação de string\n#exibindo o valor digitado na primeiras variavel\n#depois exibindo o valor digitado na segunda variavel\n#depois o valor total da nota\nprint(f''' \no valor da primeiro variavel é {n1}\no valor da segunda variavel é {n2} ",
+        "detail": "aula15",
+        "documentation": {}
+    },
+    {
+        "label": "#nota",
+        "kind": 5,
+        "importPath": "aula15",
+        "description": "aula15",
+        "peekOfCode": "#nota = (n1 + n2) /2\n#faça um print com intepolação de string\n#exibindo o valor digitado na primeiras variavel\n#depois exibindo o valor digitado na segunda variavel\n#depois o valor total da nota\nprint(f''' \no valor da primeiro variavel é {n1}\no valor da segunda variavel é {n2} \no valor da nota = {nota} \n      ''')",
+        "detail": "aula15",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "aula16",
+        "description": "aula16",
+        "peekOfCode": "num = int(input(\"digite o numero que deseja saber o valor da tabuada\"))\nprint(\"{} x {} = {}\" .format(num, 1, num*1))\nprint(\"{} x {} = {}\" .format(num, 2, num*2))\nprint(\"{} x {} = {}\" .format(num, 3, num*3))\nprint(\"{} x {} = {}\" .format(num, 4, num*4))\nprint(\"{} x {} = {}\" .format(num, 5, num*5))\nprint(\"{} x {} = {}\" .format(num, 6, num*6))\nprint(\"{} x {} = {}\" .format(num, 7, num*7))\nprint(\"{} x {} = {}\" .format(num, 8, num*8))\nprint(\"{} x {} = {}\" .format(num, 9, num*9))",
+        "detail": "aula16",
+        "documentation": {}
+    },
+    {
+        "label": "#heterogeneso",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "#heterogeneso = valores diferentes (tipos primitivos diferentes)\n#homogeneos = valores iguais (tipos primitivos iguais)\nnome = 'a'\nidade = 0\nsalario = 1500.0\n#heterogeneos\nlista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "#homogeneos",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "#homogeneos = valores iguais (tipos primitivos iguais)\nnome = 'a'\nidade = 0\nsalario = 1500.0\n#heterogeneos\nlista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "nome = 'a'\nidade = 0\nsalario = 1500.0\n#heterogeneos\nlista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "idade = 0\nsalario = 1500.0\n#heterogeneos\nlista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "salario = 1500.0\n#heterogeneos\nlista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula17",
+        "description": "aula17",
+        "peekOfCode": "lista = [nome, idade, salario]\nprint(lista)",
+        "detail": "aula17",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n1 = input('digite o seu nome')\nn2 = input('digite o seu nome')\nn3 = input('digite o seu nome')\nn4 = input('digite o seu nome')\nn5 = input('digite o seu nome')\nn6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n2 = input('digite o seu nome')\nn3 = input('digite o seu nome')\nn4 = input('digite o seu nome')\nn5 = input('digite o seu nome')\nn6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n3 = input('digite o seu nome')\nn4 = input('digite o seu nome')\nn5 = input('digite o seu nome')\nn6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n4 = input('digite o seu nome')\nn5 = input('digite o seu nome')\nn6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n5",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n5 = input('digite o seu nome')\nn6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n6",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "n6 = input('digite o seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "lista = [n1, n2, n3, n4, n5, n6]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "sorteio",
+        "kind": 5,
+        "importPath": "aula18",
+        "description": "aula18",
+        "peekOfCode": "sorteio = random.choice(lista)\nprint(sorteio)",
+        "detail": "aula18",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n1 = input(\"digite o seu nome\")\nn2 = input(\"digite o seu nome\")\nn3 = input(\"digite o seu nome\")\nn4 = input(\"digite o seu nome\")\nn5 = input(\"digite o seu nome\")\nn6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n2 = input(\"digite o seu nome\")\nn3 = input(\"digite o seu nome\")\nn4 = input(\"digite o seu nome\")\nn5 = input(\"digite o seu nome\")\nn6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n3 = input(\"digite o seu nome\")\nn4 = input(\"digite o seu nome\")\nn5 = input(\"digite o seu nome\")\nn6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n4 = input(\"digite o seu nome\")\nn5 = input(\"digite o seu nome\")\nn6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "n5",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n5 = input(\"digite o seu nome\")\nn6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "n6",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "n6 = input(\"digite o seu nome\")\npoli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "poli",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "poli = \"*\"*20\nlista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "lista = [n1, n2, n3, n4, n5, n6]\nshuffle(lista)\nsorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "sorteio",
+        "kind": 5,
+        "importPath": "aula19",
+        "description": "aula19",
+        "peekOfCode": "sorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
+        "detail": "aula19",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "aula20",
+        "description": "aula20",
+        "peekOfCode": "idade = 15\nif idade > 18:\n    print(\"o usuario e maior de 18\")\nelif idade < 18:\n    print(\"o usuario e menor de 18\")\nelse:\n    print(\"o usuario tem exatamente 18 anos\")",
+        "detail": "aula20",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula22",
+        "description": "aula22",
+        "peekOfCode": "n1 = float(input(\"digite sua nota\"))\nn2 = float (input(\"digite sua nota\"))\nmedia = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:",
+        "detail": "aula22",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula22",
+        "description": "aula22",
+        "peekOfCode": "n2 = float (input(\"digite sua nota\"))\nmedia = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:\n    print(\"voce foi bem parabens\")",
+        "detail": "aula22",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "aula22",
+        "description": "aula22",
+        "peekOfCode": "media = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:\n    print(\"voce foi bem parabens\")\nelif media >9.0:",
+        "detail": "aula22",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula23",
+        "description": "aula23",
+        "peekOfCode": "n1 = int(input(\"digite um numero\"))\nresultado = n1 % 2\nprint(\"o  resultado é \", resultado)\nif resultado == 0:\n    print(f\"o numero {n1} é par\")\nelse:\n    print(f\"o numero {n1} é impra\")",
+        "detail": "aula23",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "aula23",
+        "description": "aula23",
+        "peekOfCode": "resultado = n1 % 2\nprint(\"o  resultado é \", resultado)\nif resultado == 0:\n    print(f\"o numero {n1} é par\")\nelse:\n    print(f\"o numero {n1} é impra\")",
+        "detail": "aula23",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula24",
+        "description": "aula24",
+        "peekOfCode": "lista = []\n#palavra reservada 0 1 2\nfor i in range(3):\n    nome = input(\"digite seu nome :\")\n    lista.append(nome)\nprint(lista)\n#inicio I fim 3\n#for trabalha com indice",
+        "detail": "aula24",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula26",
+        "description": "aula26",
+        "peekOfCode": "n1 = int(input(\"digite o numero de vezes que deseja pedir a nota de um aluno\"))\nlista = []\nfor i in range(n1):\n    nota = float(input(\"digite sua nota :\"))\n    lista.append(nota)\nmedia = sum(lista) / len(lista)\nprint(media)",
+        "detail": "aula26",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula26",
+        "description": "aula26",
+        "peekOfCode": "lista = []\nfor i in range(n1):\n    nota = float(input(\"digite sua nota :\"))\n    lista.append(nota)\nmedia = sum(lista) / len(lista)\nprint(media)",
+        "detail": "aula26",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "aula26",
+        "description": "aula26",
+        "peekOfCode": "media = sum(lista) / len(lista)\nprint(media)",
+        "detail": "aula26",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula28",
+        "description": "aula28",
+        "peekOfCode": "n1 = int(input(\"digite o numero de vezes que voce deseja que vai repetir\"))\nfor c in range(1, n1+1):\n    print(c)",
+        "detail": "aula28",
+        "documentation": {}
+    },
+    {
+        "label": "nota",
+        "kind": 5,
+        "importPath": "aula31",
+        "description": "aula31",
+        "peekOfCode": "nota = int(input(\"digite o numero da tabuada que deseja saber\"))\nfor c in range(1, 11): \n    print (\"{} x {} = {}\".format(nota, c, nota*c))",
+        "detail": "aula31",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "aula32",
+        "description": "aula32",
+        "peekOfCode": "c = 0\nwhile c <= 10:\n    print(c)\n    c = c+1",
+        "detail": "aula32",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "aula33",
+        "description": "aula33",
+        "peekOfCode": "var = 1\nwhile var != 0:\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")\n    var = int(input(\"digite 1 para continuar?\\nDigite 0 para sair\"))\nprint(\"voce saiu do sistema\")",
+        "detail": "aula33",
+        "documentation": {}
+    }
+]
