@@ -1,5 +1,37 @@
 [
     {
+        "label": "create",
+        "importPath": "crud_pessoa",
+        "description": "crud_pessoa",
+        "isExtraImport": true,
+        "detail": "crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "read_all",
+        "importPath": "crud_pessoa",
+        "description": "crud_pessoa",
+        "isExtraImport": true,
+        "detail": "crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "read_by_id",
+        "importPath": "crud_pessoa",
+        "description": "crud_pessoa",
+        "isExtraImport": true,
+        "detail": "crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "crud_pessoa",
+        "description": "crud_pessoa",
+        "isExtraImport": true,
+        "detail": "crud_pessoa",
+        "documentation": {}
+    },
+    {
         "label": "random",
         "kind": 6,
         "isExtraImport": true,
@@ -79,6 +111,384 @@
         "importPath": "sqlite3",
         "description": "sqlite3",
         "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "boas_vindas",
+        "kind": 2,
+        "importPath": "aula06.aula01",
+        "description": "aula06.aula01",
+        "peekOfCode": "def boas_vindas():\n    print(\"bem-vindo ao sistema soma\")\n# função\n#responsabilidade unica - uma funcao deve fazer apenas uma coisa\n#ter apenas uma responsabilidade - ajuda no reaproveitamento de codigo\ndef pega_nome():\n    nome = input('Digite seu nome')\n    return nome\ndef saudacao(nome):\n    print(f'olá, {nome}')",
+        "detail": "aula06.aula01",
+        "documentation": {}
+    },
+    {
+        "label": "pega_nome",
+        "kind": 2,
+        "importPath": "aula06.aula01",
+        "description": "aula06.aula01",
+        "peekOfCode": "def pega_nome():\n    nome = input('Digite seu nome')\n    return nome\ndef saudacao(nome):\n    print(f'olá, {nome}')\nboas_vindas()\nnome2 = pega_nome()\nsaudacao(nome2)",
+        "detail": "aula06.aula01",
+        "documentation": {}
+    },
+    {
+        "label": "saudacao",
+        "kind": 2,
+        "importPath": "aula06.aula01",
+        "description": "aula06.aula01",
+        "peekOfCode": "def saudacao(nome):\n    print(f'olá, {nome}')\nboas_vindas()\nnome2 = pega_nome()\nsaudacao(nome2)",
+        "detail": "aula06.aula01",
+        "documentation": {}
+    },
+    {
+        "label": "nome2",
+        "kind": 5,
+        "importPath": "aula06.aula01",
+        "description": "aula06.aula01",
+        "peekOfCode": "nome2 = pega_nome()\nsaudacao(nome2)",
+        "detail": "aula06.aula01",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "aula06.aula02",
+        "description": "aula06.aula02",
+        "peekOfCode": "def soma(numero1, numero2):\n    resultado = numero1 + numero2\n    return resultado\nsoma(10, 15)\n#--------------------------------------------------------\ndef soma(numero1, numero2):\n    return numero1 + numero2\nprint(soma(10, 15))",
+        "detail": "aula06.aula02",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "aula06.aula02",
+        "description": "aula06.aula02",
+        "peekOfCode": "def soma(numero1, numero2):\n    return numero1 + numero2\nprint(soma(10, 15))",
+        "detail": "aula06.aula02",
+        "documentation": {}
+    },
+    {
+        "label": "#legibilidade",
+        "kind": 5,
+        "importPath": "aula06.aula02",
+        "description": "aula06.aula02",
+        "peekOfCode": "#legibilidade = facilidade compreensao do codigo por outro dec\ndef soma(numero1, numero2):\n    resultado = numero1 + numero2\n    return resultado\nsoma(10, 15)\n#--------------------------------------------------------\ndef soma(numero1, numero2):\n    return numero1 + numero2\nprint(soma(10, 15))",
+        "detail": "aula06.aula02",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "aula06.aula03",
+        "description": "aula06.aula03",
+        "peekOfCode": "def soma(n1, n2):\n    resultado = n1 + n2\n    return resultado\nn1 = 10\nn2 = 20\nresult = soma(n1, n2)\nprint(result)",
+        "detail": "aula06.aula03",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "aula06.aula03",
+        "description": "aula06.aula03",
+        "peekOfCode": "n1 = 10\nn2 = 20\nresult = soma(n1, n2)\nprint(result)",
+        "detail": "aula06.aula03",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "aula06.aula03",
+        "description": "aula06.aula03",
+        "peekOfCode": "n2 = 20\nresult = soma(n1, n2)\nprint(result)",
+        "detail": "aula06.aula03",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "aula06.aula03",
+        "description": "aula06.aula03",
+        "peekOfCode": "result = soma(n1, n2)\nprint(result)",
+        "detail": "aula06.aula03",
+        "documentation": {}
+    },
+    {
+        "label": "subtracao",
+        "kind": 2,
+        "importPath": "aula06.aula04",
+        "description": "aula06.aula04",
+        "peekOfCode": "def subtracao(n1, n2):\n    resultado = n1 - n2\n    return resultado\nv1 = 158\nv2 = 64\nr = subtracao(v1, v2)\nprint(r)",
+        "detail": "aula06.aula04",
+        "documentation": {}
+    },
+    {
+        "label": "v1",
+        "kind": 5,
+        "importPath": "aula06.aula04",
+        "description": "aula06.aula04",
+        "peekOfCode": "v1 = 158\nv2 = 64\nr = subtracao(v1, v2)\nprint(r)",
+        "detail": "aula06.aula04",
+        "documentation": {}
+    },
+    {
+        "label": "v2",
+        "kind": 5,
+        "importPath": "aula06.aula04",
+        "description": "aula06.aula04",
+        "peekOfCode": "v2 = 64\nr = subtracao(v1, v2)\nprint(r)",
+        "detail": "aula06.aula04",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "aula06.aula04",
+        "description": "aula06.aula04",
+        "peekOfCode": "r = subtracao(v1, v2)\nprint(r)",
+        "detail": "aula06.aula04",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicacao",
+        "kind": 2,
+        "importPath": "aula06.aula05",
+        "description": "aula06.aula05",
+        "peekOfCode": "def multiplicacao(n1, n2, n3):\n    resultado = n1 * n2 * n3\n    return resultado\nv1 = 2\nv2 = 3\nv3 = 5\n#Argumentos nomeados\nr = multiplicacao(n3=v3, n2=v2, n1=v1)\nprint(r)",
+        "detail": "aula06.aula05",
+        "documentation": {}
+    },
+    {
+        "label": "v1",
+        "kind": 5,
+        "importPath": "aula06.aula05",
+        "description": "aula06.aula05",
+        "peekOfCode": "v1 = 2\nv2 = 3\nv3 = 5\n#Argumentos nomeados\nr = multiplicacao(n3=v3, n2=v2, n1=v1)\nprint(r)",
+        "detail": "aula06.aula05",
+        "documentation": {}
+    },
+    {
+        "label": "v2",
+        "kind": 5,
+        "importPath": "aula06.aula05",
+        "description": "aula06.aula05",
+        "peekOfCode": "v2 = 3\nv3 = 5\n#Argumentos nomeados\nr = multiplicacao(n3=v3, n2=v2, n1=v1)\nprint(r)",
+        "detail": "aula06.aula05",
+        "documentation": {}
+    },
+    {
+        "label": "v3",
+        "kind": 5,
+        "importPath": "aula06.aula05",
+        "description": "aula06.aula05",
+        "peekOfCode": "v3 = 5\n#Argumentos nomeados\nr = multiplicacao(n3=v3, n2=v2, n1=v1)\nprint(r)",
+        "detail": "aula06.aula05",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "aula06.aula05",
+        "description": "aula06.aula05",
+        "peekOfCode": "r = multiplicacao(n3=v3, n2=v2, n1=v1)\nprint(r)",
+        "detail": "aula06.aula05",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "def create(nome, sobrenome, idade):\n    global id\n    id = id + 1\n    pessoa = {'id': id, 'nome': nome, 'sobrenome': sobrenome, 'idade': idade}\n    lista_pessoas.append(pessoa)\n    return f'pessoa {nome} cadastrada com sucesso!'\ndef read_all():\n    return lista_pessoas\ndef read_by_id(id):\n    pessoa_encontrada = None",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "read_all",
+        "kind": 2,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "def read_all():\n    return lista_pessoas\ndef read_by_id(id):\n    pessoa_encontrada = None\n    for pessoa in lista_pessoas:\n        if pessoa ['id'] == id:\n            pessoa_encontrada = pessoa\n    return pessoa_encontrada\ndef update(pessoa):\n    elementos = len(lista_pessoas)",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "read_by_id",
+        "kind": 2,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "def read_by_id(id):\n    pessoa_encontrada = None\n    for pessoa in lista_pessoas:\n        if pessoa ['id'] == id:\n            pessoa_encontrada = pessoa\n    return pessoa_encontrada\ndef update(pessoa):\n    elementos = len(lista_pessoas)\n    for indice in range(0, elementos):   #for incremental\n        if lista_pessoas[indice]['id'] == pessoa ['id']:",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "def update(pessoa):\n    elementos = len(lista_pessoas)\n    for indice in range(0, elementos):   #for incremental\n        if lista_pessoas[indice]['id'] == pessoa ['id']:\n            lista_pessoas [indice] = pessoa\ndef delete(id):\n    elementos = len(lista_pessoas)\n    for indice in range(0, elementos):   #for incremental\n        if lista_pessoas[indice]['id'] == id:\n             del   lista_pessoas [indice]",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "def delete(id):\n    elementos = len(lista_pessoas)\n    for indice in range(0, elementos):   #for incremental\n        if lista_pessoas[indice]['id'] == id:\n             del   lista_pessoas [indice]",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "lista_pessoas",
+        "kind": 5,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "lista_pessoas = []\nid = 0\ndef create(nome, sobrenome, idade):\n    global id\n    id = id + 1\n    pessoa = {'id': id, 'nome': nome, 'sobrenome': sobrenome, 'idade': idade}\n    lista_pessoas.append(pessoa)\n    return f'pessoa {nome} cadastrada com sucesso!'\ndef read_all():\n    return lista_pessoas",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "id",
+        "kind": 5,
+        "importPath": "aula06.crud_pessoa",
+        "description": "aula06.crud_pessoa",
+        "peekOfCode": "id = 0\ndef create(nome, sobrenome, idade):\n    global id\n    id = id + 1\n    pessoa = {'id': id, 'nome': nome, 'sobrenome': sobrenome, 'idade': idade}\n    lista_pessoas.append(pessoa)\n    return f'pessoa {nome} cadastrada com sucesso!'\ndef read_all():\n    return lista_pessoas\ndef read_by_id(id):",
+        "detail": "aula06.crud_pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "def create():\n    msg = 'cadastro com sucesso'\n    return msg\ndef read():\n    msg = 'usuario de ID = encontrado'\n    return msg\ndef read_all():\n    msg = 'listagem de usuario'\n    return msg\ndef update():",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "read",
+        "kind": 2,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "def read():\n    msg = 'usuario de ID = encontrado'\n    return msg\ndef read_all():\n    msg = 'listagem de usuario'\n    return msg\ndef update():\n    msg = 'usuario alterado com sucesso'\n    return msg\ndef delet():",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "read_all",
+        "kind": 2,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "def read_all():\n    msg = 'listagem de usuario'\n    return msg\ndef update():\n    msg = 'usuario alterado com sucesso'\n    return msg\ndef delet():\n    msg = 'usuario excluido com sucesso'\n    return msg",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "def update():\n    msg = 'usuario alterado com sucesso'\n    return msg\ndef delet():\n    msg = 'usuario excluido com sucesso'\n    return msg",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "delet",
+        "kind": 2,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "def delet():\n    msg = 'usuario excluido com sucesso'\n    return msg",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "#C",
+        "kind": 5,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "#C = criar/cadastrar algo\n#R = ler/listar 1 ou mais dados\n#U = alterar/alterar o valor de um dado\n#D = deletar/apagar algum dado\n# => pep8\ndef create():\n    msg = 'cadastro com sucesso'\n    return msg\ndef read():\n    msg = 'usuario de ID = encontrado'",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "#R",
+        "kind": 5,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "#R = ler/listar 1 ou mais dados\n#U = alterar/alterar o valor de um dado\n#D = deletar/apagar algum dado\n# => pep8\ndef create():\n    msg = 'cadastro com sucesso'\n    return msg\ndef read():\n    msg = 'usuario de ID = encontrado'\n    return msg",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "#U",
+        "kind": 5,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "#U = alterar/alterar o valor de um dado\n#D = deletar/apagar algum dado\n# => pep8\ndef create():\n    msg = 'cadastro com sucesso'\n    return msg\ndef read():\n    msg = 'usuario de ID = encontrado'\n    return msg\ndef read_all():",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "#D",
+        "kind": 5,
+        "importPath": "aula06.crud_usuario",
+        "description": "aula06.crud_usuario",
+        "peekOfCode": "#D = deletar/apagar algum dado\n# => pep8\ndef create():\n    msg = 'cadastro com sucesso'\n    return msg\ndef read():\n    msg = 'usuario de ID = encontrado'\n    return msg\ndef read_all():\n    msg = 'listagem de usuario'",
+        "detail": "aula06.crud_usuario",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula06.for_foreach",
+        "description": "aula06.for_foreach",
+        "peekOfCode": "lista = ['caio', 'fernando']\nfor p in lista:\n    print(p)\nfor n in range(0, (lista)):\n    print(lista(n))   #for incremental tradicional\n#remove  \nlista.remove('caio')\nprint(lista)\n#pop\ndado = lista.pop(0)",
+        "detail": "aula06.for_foreach",
+        "documentation": {}
+    },
+    {
+        "label": "dado",
+        "kind": 5,
+        "importPath": "aula06.for_foreach",
+        "description": "aula06.for_foreach",
+        "peekOfCode": "dado = lista.pop(0)\nprint(lista)\nprint('Dado removido: '+ dado)\n#del\ndel lista(1)\nprint(lista)",
+        "detail": "aula06.for_foreach",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula06.main",
+        "description": "aula06.main",
+        "peekOfCode": "lista = read_all()\nfor p in lista:\n   print (p)\np = read_by_id(3)\nprint (p)\npessoa_alterada = {'id':3, 'nome':'Tonho', 'sobrenome': 'Da lua', 'idade': 98}\nupdate(pessoa_alterada)\nprint('Dados com a alteração')\nlista = read_all()\nfor p in lista:",
+        "detail": "aula06.main",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "aula06.main",
+        "description": "aula06.main",
+        "peekOfCode": "p = read_by_id(3)\nprint (p)\npessoa_alterada = {'id':3, 'nome':'Tonho', 'sobrenome': 'Da lua', 'idade': 98}\nupdate(pessoa_alterada)\nprint('Dados com a alteração')\nlista = read_all()\nfor p in lista:\n    print(p)",
+        "detail": "aula06.main",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa_alterada",
+        "kind": 5,
+        "importPath": "aula06.main",
+        "description": "aula06.main",
+        "peekOfCode": "pessoa_alterada = {'id':3, 'nome':'Tonho', 'sobrenome': 'Da lua', 'idade': 98}\nupdate(pessoa_alterada)\nprint('Dados com a alteração')\nlista = read_all()\nfor p in lista:\n    print(p)",
+        "detail": "aula06.main",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "aula06.main",
+        "description": "aula06.main",
+        "peekOfCode": "lista = read_all()\nfor p in lista:\n    print(p)",
+        "detail": "aula06.main",
         "documentation": {}
     },
     {
