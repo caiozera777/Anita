@@ -25,6 +25,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "comisao",
         "kind": 5,
         "importPath": "aula07",
@@ -634,6 +650,24 @@
         "description": "aula33",
         "peekOfCode": "var = 1\nwhile var != 0:\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")\n    var = int(input(\"digite 1 para continuar?\\nDigite 0 para sair\"))\nprint(\"voce saiu do sistema\")",
         "detail": "aula33",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "aula34",
+        "description": "aula34",
+        "peekOfCode": "var = 'sim'\n#lover()transforma a string em minusculo\n# upper()transforma a string toda em minusculo\n#capitalize()transforma a primeira em minusculo\nwhile var,capitalize() == 'Sim'\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")",
+        "detail": "aula34",
+        "documentation": {}
+    },
+    {
+        "label": "situacao",
+        "kind": 5,
+        "importPath": "aula35",
+        "description": "aula35",
+        "peekOfCode": "situacao = \"Reprovado\"\nwhile situacao.capitalize() == \"Reprovado\":\n# Bloco 1 saudação\n    hora = datetime.now(tz=None)\n    if hora.hour >=5 and hora.hour <13:\n        print(\" Bom Dia\")\n    elif hora.hour >=13 and hora.hour <18:\n        print(\"Boa Tarde\")\n    else:\n        print(\" Boa Noite\") ",
+        "detail": "aula35",
         "documentation": {}
     }
 ]

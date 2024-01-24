@@ -25,6 +25,378 @@
         "documentation": {}
     },
     {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "shuffle",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "shuffle",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "exercicios.aula21",
+        "description": "exercicios.aula21",
+        "peekOfCode": "lista = [ nome, idade, anoletivo, materia, nota1, nota2, media]\nprint(lista)\nif media > 7:\n    print(\"a média é maior que 7.0\")\nelif media > 7:\n    print(\"a média é menor que 7.0\")  \nelse:\n    print(\"a média é exatamente 7.0\")  \npoli =\"=\"*20 \nprint(poli , \"média\" , poli)     ",
+        "detail": "exercicios.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "exercicios.aula22",
+        "description": "exercicios.aula22",
+        "peekOfCode": "nome = (input(\"digite seu nome\"))\naltura = float(input(\"digite sua altura em metros\"))\npeso = float(input(\"digite seu peso em quilogramas\"))\nimc = peso/(altura**2)\ncategoria = None\nif imc < 18.5:\n    categoria = \"abaixo de peso\"\nelif imc >= 24.9:\n    categoria = \"peso normal\"\nelif imc >= 20.9:",
+        "detail": "exercicios.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "exercicios.aula22",
+        "description": "exercicios.aula22",
+        "peekOfCode": "altura = float(input(\"digite sua altura em metros\"))\npeso = float(input(\"digite seu peso em quilogramas\"))\nimc = peso/(altura**2)\ncategoria = None\nif imc < 18.5:\n    categoria = \"abaixo de peso\"\nelif imc >= 24.9:\n    categoria = \"peso normal\"\nelif imc >= 20.9:\n    categoria = \"sobrepeso\"",
+        "detail": "exercicios.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "exercicios.aula22",
+        "description": "exercicios.aula22",
+        "peekOfCode": "peso = float(input(\"digite seu peso em quilogramas\"))\nimc = peso/(altura**2)\ncategoria = None\nif imc < 18.5:\n    categoria = \"abaixo de peso\"\nelif imc >= 24.9:\n    categoria = \"peso normal\"\nelif imc >= 20.9:\n    categoria = \"sobrepeso\"\nelif imc >= 30:",
+        "detail": "exercicios.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "exercicios.aula22",
+        "description": "exercicios.aula22",
+        "peekOfCode": "imc = peso/(altura**2)\ncategoria = None\nif imc < 18.5:\n    categoria = \"abaixo de peso\"\nelif imc >= 24.9:\n    categoria = \"peso normal\"\nelif imc >= 20.9:\n    categoria = \"sobrepeso\"\nelif imc >= 30:\n    categoria = \"obeso\"",
+        "detail": "exercicios.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "categoria",
+        "kind": 5,
+        "importPath": "exercicios.aula22",
+        "description": "exercicios.aula22",
+        "peekOfCode": "categoria = None\nif imc < 18.5:\n    categoria = \"abaixo de peso\"\nelif imc >= 24.9:\n    categoria = \"peso normal\"\nelif imc >= 20.9:\n    categoria = \"sobrepeso\"\nelif imc >= 30:\n    categoria = \"obeso\"\nprint(\"Olá\", nome, \"segundo os calculos do seu imc você está\", categoria)",
+        "detail": "exercicios.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n1 = input('digite seu nome')\nn2 = input('digite seu nome')\nn3 = input('digite seu nome')\nn4 = input('digite seu nome')\nn5 = input('digite seu nome')\nn6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n2 = input('digite seu nome')\nn3 = input('digite seu nome')\nn4 = input('digite seu nome')\nn5 = input('digite seu nome')\nn6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n3 = input('digite seu nome')\nn4 = input('digite seu nome')\nn5 = input('digite seu nome')\nn6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n4 = input('digite seu nome')\nn5 = input('digite seu nome')\nn6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "n5",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n5 = input('digite seu nome')\nn6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")\nelif sorteio ==n2:",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "n6",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "n6 = input('digite seu nome')\nlista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")\nelif sorteio ==n2:\n    print(f\"o nome sortedo foi {n2}\")",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "lista = [n1, n2, n3, n4, n5, n6]\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")\nelif sorteio ==n2:\n    print(f\"o nome sortedo foi {n2}\")\nelif sorteio ==n3:",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "sorteio",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "sorteio = choice(lista)\npoli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")\nelif sorteio ==n2:\n    print(f\"o nome sortedo foi {n2}\")\nelif sorteio ==n3:\n    print(f\"o nome sortedo foi {n3}\")\nelif sorteio ==n4:\n    print(f\"o nome sortedo foi {n4}\")",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "poli",
+        "kind": 5,
+        "importPath": "exercicios.aula23",
+        "description": "exercicios.aula23",
+        "peekOfCode": "poli = \"*\"*20\nif sorteio ==n1:\n    print(f\"o nome sorteado foi {n1}\")\nelif sorteio ==n2:\n    print(f\"o nome sortedo foi {n2}\")\nelif sorteio ==n3:\n    print(f\"o nome sortedo foi {n3}\")\nelif sorteio ==n4:\n    print(f\"o nome sortedo foi {n4}\")\nelif sorteio ==n5:",
+        "detail": "exercicios.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "nome = input(\"digite seu nome\")\nviagem1 = input(\"digite o local de sua primeira viagem\")\nviagem2 = input(\"digite o local de sua segunda viagem\")\nviagem3 = input(\"digite o local de sua terceira viagem\")\nviagem4 = input(\"digite o local de sua quarta viagem\")\nviagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem1",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem1 = input(\"digite o local de sua primeira viagem\")\nviagem2 = input(\"digite o local de sua segunda viagem\")\nviagem3 = input(\"digite o local de sua terceira viagem\")\nviagem4 = input(\"digite o local de sua quarta viagem\")\nviagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem2",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem2 = input(\"digite o local de sua segunda viagem\")\nviagem3 = input(\"digite o local de sua terceira viagem\")\nviagem4 = input(\"digite o local de sua quarta viagem\")\nviagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem3",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem3 = input(\"digite o local de sua terceira viagem\")\nviagem4 = input(\"digite o local de sua quarta viagem\")\nviagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem4",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem4 = input(\"digite o local de sua quarta viagem\")\nviagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\nif sorteio ==viagem1:",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem5",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem5 = input(\"digite o local de sua quinta viagem\")\nviagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\nif sorteio ==viagem1:\n    print(f\"seu destino é : {viagem1}\")",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "viagem6",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "viagem6 = input(\"digite o local de sua quinta viagem\")\nlista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\nif sorteio ==viagem1:\n    print(f\"seu destino é : {viagem1}\")\nelif sorteio ==viagem2:",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "lista = [viagem1, viagem2, viagem3, viagem4, viagem5, viagem6]\nprint(lista)\npoli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\nif sorteio ==viagem1:\n    print(f\"seu destino é : {viagem1}\")\nelif sorteio ==viagem2:\n    print(f\"seu destino é : {viagem2}\")",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "poli",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "poli = \"*\"*20\nfrom random import choice, shuffle\nshuffle(lista)\nsorteio = choice(lista)\nif sorteio ==viagem1:\n    print(f\"seu destino é : {viagem1}\")\nelif sorteio ==viagem2:\n    print(f\"seu destino é : {viagem2}\")\nelif sorteio ==viagem3:\n    print(f\"seu destino é : {viagem3}\")",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "sorteio",
+        "kind": 5,
+        "importPath": "exercicios.aula24",
+        "description": "exercicios.aula24",
+        "peekOfCode": "sorteio = choice(lista)\nif sorteio ==viagem1:\n    print(f\"seu destino é : {viagem1}\")\nelif sorteio ==viagem2:\n    print(f\"seu destino é : {viagem2}\")\nelif sorteio ==viagem3:\n    print(f\"seu destino é : {viagem3}\")\nelif sorteio ==viagem4:\n    print(f\"seu destino é : {viagem4}\")\nelif sorteio ==viagem5:",
+        "detail": "exercicios.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "nome1",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "nome1 = input(\"digite seu nome\")\nidade1 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome2 = input(\"digite seu nome\")\nidade2 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome3 = input(\"digite seu nome\")\nidade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "idade1",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "idade1 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome2 = input(\"digite seu nome\")\nidade2 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome3 = input(\"digite seu nome\")\nidade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "nome2",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "nome2 = input(\"digite seu nome\")\nidade2 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome3 = input(\"digite seu nome\")\nidade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "idade2",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "idade2 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nnome3 = input(\"digite seu nome\")\nidade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "nome3",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "nome3 = input(\"digite seu nome\")\nidade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "idade3",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "idade3 = float(input(\"dgite uma idade entre 18 até 50 anos\"))\nmedia_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"\nelif media_idade >= 30 <40:",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "media_idade",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "media_idade = (idade1 + idade2 + idade3)/3\nidade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"\nelif media_idade >= 30 <40:\n    categoria = \"entre 30 e 39\"",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "idade = (idade1, idade2, idade3)\nnomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"\nelif media_idade >= 30 <40:\n    categoria = \"entre 30 e 39\"\nelif media_idade >=40 <=50:",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "nomes = [nome1, nome2, nome3]\ncategoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"\nelif media_idade >= 30 <40:\n    categoria = \"entre 30 e 39\"\nelif media_idade >=40 <=50:\n    categoria = \"entre 40 e 50\"",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
+        "label": "categoria",
+        "kind": 5,
+        "importPath": "exercicios.aula25",
+        "description": "exercicios.aula25",
+        "peekOfCode": "categoria = None\nif media_idade < 18:\n    ctegoria = \"menor de 18\"\nelif media_idade >= 18 <30:\n    categoria = \"entre 18 e 29\"\nelif media_idade >= 30 <40:\n    categoria = \"entre 30 e 39\"\nelif media_idade >=40 <=50:\n    categoria = \"entre 40 e 50\"\nprint(\"A média das idades é\", categoria)",
+        "detail": "exercicios.aula25",
+        "documentation": {}
+    },
+    {
         "label": "comisao",
         "kind": 5,
         "importPath": "modulo01.aula07",
@@ -508,6 +880,159 @@
         "description": "modulo01.aula19",
         "peekOfCode": "sorteio = choice(lista)\nprint(poli, \"trimania de outubro\", poli, \"\\n\")\nprint(f\"parabens {sorteio} voce ganhou 500 milhoes de reais\")",
         "detail": "modulo01.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "modulo01.aula20",
+        "description": "modulo01.aula20",
+        "peekOfCode": "idade = 15\nif idade > 18:\n    print(\"o usuario e maior de 18\")\nelif idade < 18:\n    print(\"o usuario e menor de 18\")\nelse:\n    print(\"o usuario tem exatamente 18 anos\")",
+        "detail": "modulo01.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "modulo01.aula22",
+        "description": "modulo01.aula22",
+        "peekOfCode": "n1 = float(input(\"digite sua nota\"))\nn2 = float (input(\"digite sua nota\"))\nmedia = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:",
+        "detail": "modulo01.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "modulo01.aula22",
+        "description": "modulo01.aula22",
+        "peekOfCode": "n2 = float (input(\"digite sua nota\"))\nmedia = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:\n    print(\"voce foi bem parabens\")",
+        "detail": "modulo01.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo01.aula22",
+        "description": "modulo01.aula22",
+        "peekOfCode": "media = (n1 + n2) / 2\nif media <=3.0:\n    print(\"voce foi reprovado por unanimidade seu vacilao\")\nelif media <6.0:\n    print(\"voce ainda tem chance de passar, fazendo recuperacao\")\nelif media >=7.0 <8.0:\n    print(\"voce passou mas nao merece parabens, fez sua obrigaçao\")\nelif media >=8.0 <=9.0:\n    print(\"voce foi bem parabens\")\nelif media >9.0:",
+        "detail": "modulo01.aula22",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "modulo01.aula23",
+        "description": "modulo01.aula23",
+        "peekOfCode": "n1 = int(input(\"digite um numero\"))\nresultado = n1 % 2\nprint(\"o  resultado é \", resultado)\nif resultado == 0:\n    print(f\"o numero {n1} é par\")\nelse:\n    print(f\"o numero {n1} é impra\")",
+        "detail": "modulo01.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "modulo01.aula23",
+        "description": "modulo01.aula23",
+        "peekOfCode": "resultado = n1 % 2\nprint(\"o  resultado é \", resultado)\nif resultado == 0:\n    print(f\"o numero {n1} é par\")\nelse:\n    print(f\"o numero {n1} é impra\")",
+        "detail": "modulo01.aula23",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "modulo01.aula24",
+        "description": "modulo01.aula24",
+        "peekOfCode": "lista = []\n#palavra reservada 0 1 2\nfor i in range(3):\n    nome = input(\"digite seu nome :\")\n    lista.append(nome)\nprint(lista)\n#inicio I fim 3\n#for trabalha com indice",
+        "detail": "modulo01.aula24",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "modulo01.aula26",
+        "description": "modulo01.aula26",
+        "peekOfCode": "n1 = int(input(\"digite o numero de vezes que deseja pedir a nota de um aluno\"))\nlista = []\nfor i in range(n1):\n    nota = float(input(\"digite sua nota :\"))\n    lista.append(nota)\nmedia = sum(lista) / len(lista)\nprint(media)",
+        "detail": "modulo01.aula26",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "modulo01.aula26",
+        "description": "modulo01.aula26",
+        "peekOfCode": "lista = []\nfor i in range(n1):\n    nota = float(input(\"digite sua nota :\"))\n    lista.append(nota)\nmedia = sum(lista) / len(lista)\nprint(media)",
+        "detail": "modulo01.aula26",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "modulo01.aula26",
+        "description": "modulo01.aula26",
+        "peekOfCode": "media = sum(lista) / len(lista)\nprint(media)",
+        "detail": "modulo01.aula26",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "modulo01.aula28",
+        "description": "modulo01.aula28",
+        "peekOfCode": "n1 = int(input(\"digite o numero de vezes que voce deseja que vai repetir\"))\nfor c in range(1, n1+1):\n    print(c)",
+        "detail": "modulo01.aula28",
+        "documentation": {}
+    },
+    {
+        "label": "nota",
+        "kind": 5,
+        "importPath": "modulo01.aula31",
+        "description": "modulo01.aula31",
+        "peekOfCode": "nota = int(input(\"digite o numero da tabuada que deseja saber\"))\nfor c in range(1, 11): \n    print (\"{} x {} = {}\".format(nota, c, nota*c))",
+        "detail": "modulo01.aula31",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "modulo01.aula32",
+        "description": "modulo01.aula32",
+        "peekOfCode": "c = 0\nwhile c <= 10:\n    print(c)\n    c = c+1",
+        "detail": "modulo01.aula32",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "modulo01.aula33",
+        "description": "modulo01.aula33",
+        "peekOfCode": "var = 1\nwhile var != 0:\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")\n    var = int(input(\"digite 1 para continuar?\\nDigite 0 para sair\"))\nprint(\"voce saiu do sistema\")",
+        "detail": "modulo01.aula33",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "modulo01.aula34",
+        "description": "modulo01.aula34",
+        "peekOfCode": "var = 'sim'\n#lover()transforma a string em minusculo\n# upper()transforma a string toda em minusculo\n#capitalize()transforma a primeira em minusculo\nwhile var,capitalize() == 'Sim'\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")",
+        "detail": "modulo01.aula34",
+        "documentation": {}
+    },
+    {
+        "label": "situacao",
+        "kind": 5,
+        "importPath": "modulo01.aula35",
+        "description": "modulo01.aula35",
+        "peekOfCode": "situacao = \"Reprovado\"\nwhile situacao.capitalize() == \"Reprovado\":\n# Bloco 1 saudação\n    hora = datetime.now(tz=None)\n    if hora.hour >=5 and hora.hour <13:\n        print(\" Bom Dia\")\n    elif hora.hour >=13 and hora.hour <18:\n        print(\"Boa Tarde\")\n    else:\n        print(\" Boa Noite\") ",
+        "detail": "modulo01.aula35",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "banco",
+        "description": "banco",
+        "peekOfCode": "conn = sqlite3.connect('BancoTeste.sqlite3')\nprint('banco criado')",
+        "detail": "banco",
         "documentation": {}
     }
 ]

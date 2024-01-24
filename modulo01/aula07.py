@@ -8,7 +8,7 @@
 nome : str = 'caio matheus manske '
 
 #numero inteiro numero que não tem casa decimal idade
-idade : int = 15
+dade : int = 15
 comisao = 54765476325452378428734687236
 
 #boleano true false
