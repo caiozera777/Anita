@@ -97,6 +97,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "sleep",
         "importPath": "time",
         "description": "time",
@@ -1424,6 +1440,15 @@
         "importPath": "modulo01.aula34",
         "description": "modulo01.aula34",
         "peekOfCode": "var = 'sim'\n#lover()transforma a string em minusculo\n# upper()transforma a string toda em minusculo\n#capitalize()transforma a primeira em minusculo\nwhile var,capitalize() == 'Sim'\n    n1 = int(input(\"digite um numero\"))\n    n2 = int(input(\"digite um numero\"))\n    soma = n1 + n2\n    print(f\"o primeiro numero é {n1}\\n o segundo numero digitado é {n2}\\n a soma é {soma}\")\n    print(f\"deseja fazer um novo calculo?\")",
+        "detail": "modulo01.aula34",
+        "documentation": {}
+    },
+    {
+        "label": "situacao",
+        "kind": 5,
+        "importPath": "modulo01.aula34",
+        "description": "modulo01.aula34",
+        "peekOfCode": "situacao = \"Reprovado\"\nwhile situacao.capitalize() == \"Reprovado\":\n# Bloco 1 saudação\n    hora = datetime.now(tz=None)\n    if hora.hour >=5 and hora.hour <13:\n        print(\" Bom Dia\")\n    elif hora.hour >=13 and hora.hour <18:\n        print(\"Boa Tarde\")\n    else:\n        print(\" Boa Noite\") ",
         "detail": "modulo01.aula34",
         "documentation": {}
     },
