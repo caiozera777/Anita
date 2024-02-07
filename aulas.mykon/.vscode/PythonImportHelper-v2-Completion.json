@@ -1,0 +1,204 @@
+[
+    {
+        "label": "Series",
+        "importPath": "series",
+        "description": "series",
+        "isExtraImport": true,
+        "detail": "series",
+        "documentation": {}
+    },
+    {
+        "label": "Crudusuario",
+        "importPath": "usuario_crud",
+        "description": "usuario_crud",
+        "isExtraImport": true,
+        "detail": "usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "lista_usuario",
+        "importPath": "usuario_crud",
+        "description": "usuario_crud",
+        "isExtraImport": true,
+        "detail": "usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrar",
+        "importPath": "usuario_crud",
+        "description": "usuario_crud",
+        "isExtraImport": true,
+        "detail": "usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "usuario",
+        "description": "usuario",
+        "isExtraImport": true,
+        "detail": "usuario",
+        "documentation": {}
+    },
+    {
+        "label": "lista_series",
+        "kind": 5,
+        "importPath": "atividade01.main",
+        "description": "atividade01.main",
+        "peekOfCode": "lista_series = []\nprint(' < Seja bem vindo ao Netflix >\\n')\nprint('\\t1_ Cadastrar ')\nprint('\\t2_Listar ')\nprint('\\t3 Sair do cistema \\n')\nValida = False\nwhile(not Valida):\n    opcao = int (input('Escolha uma das opcoes >> '))\n    if(opcao == 1):\n        series = Series()",
+        "detail": "atividade01.main",
+        "documentation": {}
+    },
+    {
+        "label": "Valida",
+        "kind": 5,
+        "importPath": "atividade01.main",
+        "description": "atividade01.main",
+        "peekOfCode": "Valida = False\nwhile(not Valida):\n    opcao = int (input('Escolha uma das opcoes >> '))\n    if(opcao == 1):\n        series = Series()\n        series.nome = input('Digite o nome >>')\n        series.sinopse = input('Digite a sinopse >>')\n        series.temporadas = input('Digite a quantidade de temporadas >>')\n        series.episodios = input('Digite o numero de episodios >>')\n        series.duracao = input('Digite a duracao da serie >>')",
+        "detail": "atividade01.main",
+        "documentation": {}
+    },
+    {
+        "label": "Series",
+        "kind": 6,
+        "importPath": "atividade01.series",
+        "description": "atividade01.series",
+        "peekOfCode": "class Series:\n    nome                = ''\n    sinopse             = ''\n    temporadas          =  ''\n    episodios           = ''\n    duracao             = ''\n    elenco              = ''\n    classificacao       = ''\n    def __str__(self) -> str:\n        return f'{self.nome} - {self.sinopse} - {self.temporadas} - {self.episodios} - {self.duracao} - {self.elenco} - {self.classificacao}'",
+        "detail": "atividade01.series",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "n1 = str(input(\"Digite um nome:\"))\nn2 = str(input(\"Digite um nome:\"))\nn3 = str(input(\"Digite um nome:\"))\nn4 = str(input(\"Digite um nome:\"))\n#Array\nlista = [n1, n2, n3, n4]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias ",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "n2 = str(input(\"Digite um nome:\"))\nn3 = str(input(\"Digite um nome:\"))\nn4 = str(input(\"Digite um nome:\"))\n#Array\nlista = [n1, n2, n3, n4]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias \n# Choice é utilizado para escolher um numero ou uma string aleatória",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "n3 = str(input(\"Digite um nome:\"))\nn4 = str(input(\"Digite um nome:\"))\n#Array\nlista = [n1, n2, n3, n4]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias \n# Choice é utilizado para escolher um numero ou uma string aleatória",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "n4 = str(input(\"Digite um nome:\"))\n#Array\nlista = [n1, n2, n3, n4]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias \n# Choice é utilizado para escolher um numero ou uma string aleatória",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "lista = [n1, n2, n3, n4]\nprint(lista)\nsorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias \n# Choice é utilizado para escolher um numero ou uma string aleatória",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "sorteio",
+        "kind": 5,
+        "importPath": "Aulas Python.aula14",
+        "description": "Aulas Python.aula14",
+        "peekOfCode": "sorteio = random.choice(lista)\nprint(sorteio)\n# Random é um recurso que ajuda a gerenciar numeros ou strings aleatorias \n# Choice é utilizado para escolher um numero ou uma string aleatória",
+        "detail": "Aulas Python.aula14",
+        "documentation": {}
+    },
+    {
+        "label": "idadeteste",
+        "kind": 5,
+        "importPath": "Aulas Python.Aula15",
+        "description": "Aulas Python.Aula15",
+        "peekOfCode": "idadeteste = input(\"Digite a sua idade: \")\nidade = int(idadeteste)\n#idade = 70\nif idade > 18 and idade < 60:\n    print(\"Você é adulto\")\nelif idade < 18 and idade > 12:\n    print(\"Você é adolescente\")\nelif idade < 12:\n    print(\"Você é uma criança\")\nelif idade >= 18:",
+        "detail": "Aulas Python.Aula15",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "Aulas Python.Aula15",
+        "description": "Aulas Python.Aula15",
+        "peekOfCode": "idade = int(idadeteste)\n#idade = 70\nif idade > 18 and idade < 60:\n    print(\"Você é adulto\")\nelif idade < 18 and idade > 12:\n    print(\"Você é adolescente\")\nelif idade < 12:\n    print(\"Você é uma criança\")\nelif idade >= 18:\n    print(\"Você tem 18 anos\")",
+        "detail": "Aulas Python.Aula15",
+        "documentation": {}
+    },
+    {
+        "label": "#idade",
+        "kind": 5,
+        "importPath": "Aulas Python.Aula15",
+        "description": "Aulas Python.Aula15",
+        "peekOfCode": "#idade = 70\nif idade > 18 and idade < 60:\n    print(\"Você é adulto\")\nelif idade < 18 and idade > 12:\n    print(\"Você é adolescente\")\nelif idade < 12:\n    print(\"Você é uma criança\")\nelif idade >= 18:\n    print(\"Você tem 18 anos\")\nelse:",
+        "detail": "Aulas Python.Aula15",
+        "documentation": {}
+    },
+    {
+        "label": "crud",
+        "kind": 5,
+        "importPath": "aulasmykon.main",
+        "description": "aulasmykon.main",
+        "peekOfCode": "crud = Crudusuario()\nprint('Bem-vindo ao sistema de agendamento')\nprint('\\t1_ Cadastrar usuario')\nprint('\\t2_Listar usuario')\nValida = True\nwhile(not Valida):\n    opcao = int (input('Escolha uma das opcoes; '))\nif(opcao == 1):\n    usuario = Usuario\n    usuario.nome = input('Digite o nome >>')",
+        "detail": "aulasmykon.main",
+        "documentation": {}
+    },
+    {
+        "label": "Valida",
+        "kind": 5,
+        "importPath": "aulasmykon.main",
+        "description": "aulasmykon.main",
+        "peekOfCode": "Valida = True\nwhile(not Valida):\n    opcao = int (input('Escolha uma das opcoes; '))\nif(opcao == 1):\n    usuario = Usuario\n    usuario.nome = input('Digite o nome >>')\n    usuario.sobrenome = input('Digite o sobrenome >>')\n    usuario.email = input('Digite o email >>')\n    usuario.senha = input('Digite a senha >>')\n    cadastrar(nome, sobrenome, email, senha)",
+        "detail": "aulasmykon.main",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "aulasmykon.usuario",
+        "description": "aulasmykon.usuario",
+        "peekOfCode": "class Usuario:\n    nome            = ''\n    sobrenome       = ''\n    email           =  ''\n    senha           = ''\n    def __str__(self) -> str:\n        return f'{self.nome} - {self.sobrenome} - {self.email} - {self.senha}'",
+        "detail": "aulasmykon.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrar",
+        "kind": 2,
+        "importPath": "aulasmykon.usuario_crud",
+        "description": "aulasmykon.usuario_crud",
+        "peekOfCode": "def cadastrar(self, nome, sobrenome, email, senha):\n    usuario = Usuario\n    usuario.nome = nome\n    usuario.sobrenome = sobrenome\n    usuario.email = email\n    usuario.senha = senha\n    self.lista_usuario.append(usuario)\ndef listar(self):\n    return self.lista_usuario",
+        "detail": "aulasmykon.usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "aulasmykon.usuario_crud",
+        "description": "aulasmykon.usuario_crud",
+        "peekOfCode": "def listar(self):\n    return self.lista_usuario",
+        "detail": "aulasmykon.usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "lista_usuario",
+        "kind": 5,
+        "importPath": "aulasmykon.usuario_crud",
+        "description": "aulasmykon.usuario_crud",
+        "peekOfCode": "lista_usuario = []\ndef cadastrar(self, nome, sobrenome, email, senha):\n    usuario = Usuario\n    usuario.nome = nome\n    usuario.sobrenome = sobrenome\n    usuario.email = email\n    usuario.senha = senha\n    self.lista_usuario.append(usuario)\ndef listar(self):\n    return self.lista_usuario",
+        "detail": "aulasmykon.usuario_crud",
+        "documentation": {}
+    }
+]

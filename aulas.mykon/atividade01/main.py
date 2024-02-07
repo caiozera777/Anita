@@ -21,8 +21,11 @@ while(not Valida):
         series.episodios = input('Digite o numero de episodios >>')
         series.duracao = input('Digite a duracao da serie >>')
         series.elenco = input('Digite o elenco >>')
-        series.classificacao = input('Digite a classificacao indicativa >>')
+        series.classificacao = input('Digite a classificacao indicativa >>\n')
         lista_series.append(series)
+        print('Serie cadastrada com sucesso!!\n')
+        
+
     
 
     elif(opcao == 2):
@@ -32,6 +35,7 @@ while(not Valida):
  
     elif(opcao == 3):
         Valida = True
+        print('Você saiu do sistema!!')
  
 
     else:
