@@ -1,5 +1,53 @@
 [
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "Series",
         "importPath": "series",
         "description": "series",
@@ -37,6 +85,97 @@
         "description": "usuario",
         "isExtraImport": true,
         "detail": "usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "importPath": "usuario",
+        "description": "usuario",
+        "isExtraImport": true,
+        "detail": "usuario",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "importPath": "pessoa",
+        "description": "pessoa",
+        "isExtraImport": true,
+        "detail": "pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "importPath": "pessoa",
+        "description": "pessoa",
+        "isExtraImport": true,
+        "detail": "pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "importPath": "pessoa",
+        "description": "pessoa",
+        "isExtraImport": true,
+        "detail": "pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Endereco",
+        "importPath": "endereco",
+        "description": "endereco",
+        "isExtraImport": true,
+        "detail": "endereco",
+        "documentation": {}
+    },
+    {
+        "label": "Professor",
+        "importPath": "professor",
+        "description": "professor",
+        "isExtraImport": true,
+        "detail": "professor",
+        "documentation": {}
+    },
+    {
+        "label": "Series",
+        "importPath": "serie",
+        "description": "serie",
+        "isExtraImport": true,
+        "detail": "serie",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "atividade flask.main",
+        "description": "atividade flask.main",
+        "peekOfCode": "def inicio():\n    return render_template('inicio.html')\n@app.route('/cadastro')\ndef pessoa():\n    return render_template('cadastro.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividade flask.main",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 2,
+        "importPath": "atividade flask.main",
+        "description": "atividade flask.main",
+        "peekOfCode": "def pessoa():\n    return render_template('cadastro.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividade flask.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "atividade flask.main",
+        "description": "atividade flask.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('inicio.html')\n@app.route('/cadastro')\ndef pessoa():\n    return render_template('cadastro.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividade flask.main",
         "documentation": {}
     },
     {
@@ -199,6 +338,285 @@
         "description": "aulasmykon.usuario_crud",
         "peekOfCode": "lista_usuario = []\ndef cadastrar(self, nome, sobrenome, email, senha):\n    usuario = Usuario\n    usuario.nome = nome\n    usuario.sobrenome = sobrenome\n    usuario.email = email\n    usuario.senha = senha\n    self.lista_usuario.append(usuario)\ndef listar(self):\n    return self.lista_usuario",
         "detail": "aulasmykon.usuario_crud",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "Flask.atividade.atividade",
+        "description": "Flask.atividade.atividade",
+        "peekOfCode": "def inicio():\n    return 'Seja Bem Vindo !'\n@app.route('/pessoa')\ndef pessoa():\n    return 'Bem Vindo ao modulo de pessoas'\napp.run(host='0.0.0.0', port=8080, debug=True)",
+        "detail": "Flask.atividade.atividade",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 2,
+        "importPath": "Flask.atividade.atividade",
+        "description": "Flask.atividade.atividade",
+        "peekOfCode": "def pessoa():\n    return 'Bem Vindo ao modulo de pessoas'\napp.run(host='0.0.0.0', port=8080, debug=True)",
+        "detail": "Flask.atividade.atividade",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Flask.atividade.atividade",
+        "description": "Flask.atividade.atividade",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return 'Seja Bem Vindo !'\n@app.route('/pessoa')\ndef pessoa():\n    return 'Bem Vindo ao modulo de pessoas'\napp.run(host='0.0.0.0', port=8080, debug=True)",
+        "detail": "Flask.atividade.atividade",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "Flask.aula01.main",
+        "description": "Flask.aula01.main",
+        "peekOfCode": "def inicio():\n    return 'Olá'\napp.route('/pessoa')\ndef pessoa():\n    return 'pagina pessoa'\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "Flask.aula01.main",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 2,
+        "importPath": "Flask.aula01.main",
+        "description": "Flask.aula01.main",
+        "peekOfCode": "def pessoa():\n    return 'pagina pessoa'\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "Flask.aula01.main",
+        "documentation": {}
+    },
+    {
+        "label": "#Framework",
+        "kind": 5,
+        "importPath": "Flask.aula01.main",
+        "description": "Flask.aula01.main",
+        "peekOfCode": "#Framework = é um conjunto de bibliotecas que auxiliam na criação de uma funcionalidade\n#PIP = repositorio de biblioteca. Pacotes e Frameworks Python = https://pypi.org\n#instalação do flask = \n#  /  é o endereço raiz(inicio),a rota inicial de um site ou sistema linux\n#endereço da minha maquina = localhost / 127.0.0.1\n#porta é por onde libera a entrada para uma  determinada aplicação na sua maquina\n#a porta padrão de um site é 80\n# o modo de debug ativa o recaregamento automatico e melhora os logs\nfrom flask import Flask\napp = Flask(__name__)",
+        "detail": "Flask.aula01.main",
+        "documentation": {}
+    },
+    {
+        "label": "#PIP",
+        "kind": 5,
+        "importPath": "Flask.aula01.main",
+        "description": "Flask.aula01.main",
+        "peekOfCode": "#PIP = repositorio de biblioteca. Pacotes e Frameworks Python = https://pypi.org\n#instalação do flask = \n#  /  é o endereço raiz(inicio),a rota inicial de um site ou sistema linux\n#endereço da minha maquina = localhost / 127.0.0.1\n#porta é por onde libera a entrada para uma  determinada aplicação na sua maquina\n#a porta padrão de um site é 80\n# o modo de debug ativa o recaregamento automatico e melhora os logs\nfrom flask import Flask\napp = Flask(__name__)\n@app.route('/')",
+        "detail": "Flask.aula01.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Flask.aula01.main",
+        "description": "Flask.aula01.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return 'Olá'\napp.route('/pessoa')\ndef pessoa():\n    return 'pagina pessoa'\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "Flask.aula01.main",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "Flask.aula02.main",
+        "description": "Flask.aula02.main",
+        "peekOfCode": "def inicio():\n    return render_template('inicio.html')\n@app.route('pessoa')\ndef pessoa():\n    return render_template('pessoa.h')\napp.run(debug=True)",
+        "detail": "Flask.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 2,
+        "importPath": "Flask.aula02.main",
+        "description": "Flask.aula02.main",
+        "peekOfCode": "def pessoa():\n    return render_template('pessoa.h')\napp.run(debug=True)",
+        "detail": "Flask.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Flask.aula02.main",
+        "description": "Flask.aula02.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('inicio.html')\n@app.route('pessoa')\ndef pessoa():\n    return render_template('pessoa.h')\napp.run(debug=True)",
+        "detail": "Flask.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "POO.aula01.usuario",
+        "description": "POO.aula01.usuario",
+        "peekOfCode": "class Usuario:\n    def __init__(self, nome, email, senha, funcao):\n        self.nome = nome\n        self.nome = email\n        self.nome = senha\n        self.nome = funcao\n        self.data_criacao = datetime.now()\n    def __str__(self):\n        return f\"{self.nome} - {self.email} - {self.senha} - {self.funcao} - {self.data_criacao}\"",
+        "detail": "POO.aula01.usuario",
+        "documentation": {}
+    },
+    {
+        "label": "Endereco",
+        "kind": 6,
+        "importPath": "POO.aula02.endereco",
+        "description": "POO.aula02.endereco",
+        "peekOfCode": "class Endereco:\n    def __init__(self, rua, numero, complemento, bairo, cidade):\n        self.rua = rua\n        self.numero = numero\n        self.complemento = complemento\n        self.bairo = bairo\n        self.cidade = cidade\n    def __str__(self):\n        return f'{self.rua} - {self.numero} - {self.complemento} - {self.bairo} - {self.cidade}'",
+        "detail": "POO.aula02.endereco",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "POO.aula02.main",
+        "description": "POO.aula02.main",
+        "peekOfCode": "nome = 'jorgin'\nsobrenome = 'silva'\nidade = 69\nendereco = Endereco('Rua do vini','6969','ao lado da casa do vini', 'salto', 'blumenau')\np1 = Pessoa(nome, sobrenome, idade, endereco)    \nprint(p1)",
+        "detail": "POO.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "sobrenome",
+        "kind": 5,
+        "importPath": "POO.aula02.main",
+        "description": "POO.aula02.main",
+        "peekOfCode": "sobrenome = 'silva'\nidade = 69\nendereco = Endereco('Rua do vini','6969','ao lado da casa do vini', 'salto', 'blumenau')\np1 = Pessoa(nome, sobrenome, idade, endereco)    \nprint(p1)",
+        "detail": "POO.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "POO.aula02.main",
+        "description": "POO.aula02.main",
+        "peekOfCode": "idade = 69\nendereco = Endereco('Rua do vini','6969','ao lado da casa do vini', 'salto', 'blumenau')\np1 = Pessoa(nome, sobrenome, idade, endereco)    \nprint(p1)",
+        "detail": "POO.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "endereco",
+        "kind": 5,
+        "importPath": "POO.aula02.main",
+        "description": "POO.aula02.main",
+        "peekOfCode": "endereco = Endereco('Rua do vini','6969','ao lado da casa do vini', 'salto', 'blumenau')\np1 = Pessoa(nome, sobrenome, idade, endereco)    \nprint(p1)",
+        "detail": "POO.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "POO.aula02.main",
+        "description": "POO.aula02.main",
+        "peekOfCode": "p1 = Pessoa(nome, sobrenome, idade, endereco)    \nprint(p1)",
+        "detail": "POO.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "POO.aula02.pessoa",
+        "description": "POO.aula02.pessoa",
+        "peekOfCode": "class Pessoa:\n    def __init__(self, nome, sobrenome, idade, endereco):\n        self.nome = nome\n        self.sobrenome = sobrenome\n        self.idade = idade\n        self.endereco = endereco\n    def __str__(self):\n        return f'{self.nome} - {self.sobrenome} - {self.idade} - {self.endereco}'",
+        "detail": "POO.aula02.pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1 = Professor()\np1.nome = 'ma'\np1.sobrenome = 'gra'\np1.idade = 18\np1.turmas = ('matematica', 'historia')\np1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1.nome",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1.nome = 'ma'\np1.sobrenome = 'gra'\np1.idade = 18\np1.turmas = ('matematica', 'historia')\np1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1.sobrenome",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1.sobrenome = 'gra'\np1.idade = 18\np1.turmas = ('matematica', 'historia')\np1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1.idade",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1.idade = 18\np1.turmas = ('matematica', 'historia')\np1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1.turmas",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1.turmas = ('matematica', 'historia')\np1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "p1.registro",
+        "kind": 5,
+        "importPath": "POO.aula03.main",
+        "description": "POO.aula03.main",
+        "peekOfCode": "p1.registro = 'pro11112'\nprint(p1)",
+        "detail": "POO.aula03.main",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "POO.aula03.pessoa",
+        "description": "POO.aula03.pessoa",
+        "peekOfCode": "class Pessoa:\n    nome = ''\n    sobrenome = ''\n    idade = 0\n    def __str__(self):\n        return f'{self.nome} - {self.sobrenome} - {self.idade}'",
+        "detail": "POO.aula03.pessoa",
+        "documentation": {}
+    },
+    {
+        "label": "Professor",
+        "kind": 6,
+        "importPath": "POO.aula03.professor",
+        "description": "POO.aula03.professor",
+        "peekOfCode": "class Professor(Pessoa):\n    turmas: []\n    registro = ''\n    def __str__(self):\n            return f'{super().__str__()},{self.turmas},{self.registro}'",
+        "detail": "POO.aula03.professor",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "POO.main",
+        "description": "POO.main",
+        "peekOfCode": "s1 = Series()\ns1.nome = 'Breaking Bad'\ns1.sinopse = 'mutcho loka'\nprint(s1)",
+        "detail": "POO.main",
+        "documentation": {}
+    },
+    {
+        "label": "s1.nome",
+        "kind": 5,
+        "importPath": "POO.main",
+        "description": "POO.main",
+        "peekOfCode": "s1.nome = 'Breaking Bad'\ns1.sinopse = 'mutcho loka'\nprint(s1)",
+        "detail": "POO.main",
+        "documentation": {}
+    },
+    {
+        "label": "s1.sinopse",
+        "kind": 5,
+        "importPath": "POO.main",
+        "description": "POO.main",
+        "peekOfCode": "s1.sinopse = 'mutcho loka'\nprint(s1)",
+        "detail": "POO.main",
+        "documentation": {}
+    },
+    {
+        "label": "Series",
+        "kind": 6,
+        "importPath": "POO.serie",
+        "description": "POO.serie",
+        "peekOfCode": "class Series:\n    nome            = ''\n    sinopse         = ''\n    temporadas      = 0\n    episodios       = 0\n    duracao         = ''\n    elenco          = ''\n    classificacao   = ''\n    def __init__(self, nome, sinopse):\n        print('Chamando o metodo construtor')",
+        "detail": "POO.serie",
         "documentation": {}
     }
 ]
