@@ -1,0 +1,20 @@
+body {
+    background: #490101;
+}
+
+h1 {
+    width: 100%;
+    color: #c8c5c5;
+}
+
+a {
+    width: 100%;
+    color: #c8c5c5;
+    font-size: 100px;
+}
+
+
+img {
+width: 300px;
+    margin: 20px 0px;
+}

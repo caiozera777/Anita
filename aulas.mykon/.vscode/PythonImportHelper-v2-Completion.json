@@ -24,7 +24,55 @@
         "documentation": {}
     },
     {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -154,6 +202,42 @@
     {
         "label": "inicio",
         "kind": 2,
+        "importPath": "aitividadeflask02.main",
+        "description": "aitividadeflask02.main",
+        "peekOfCode": "def inicio():\n    return render_template('inicio.html')\n@app.route('/cadastro')\ndef cadastrar():\n    return render_template('cadastro.html')\n@app.route('/lista')\ndef listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "aitividadeflask02.main",
+        "documentation": {}
+    },
+    {
+        "label": "cadastrar",
+        "kind": 2,
+        "importPath": "aitividadeflask02.main",
+        "description": "aitividadeflask02.main",
+        "peekOfCode": "def cadastrar():\n    return render_template('cadastro.html')\n@app.route('/lista')\ndef listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "aitividadeflask02.main",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "aitividadeflask02.main",
+        "description": "aitividadeflask02.main",
+        "peekOfCode": "def listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "aitividadeflask02.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "aitividadeflask02.main",
+        "description": "aitividadeflask02.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('inicio.html')\n@app.route('/cadastro')\ndef cadastrar():\n    return render_template('cadastro.html')\n@app.route('/lista')\ndef listar():\n    return render_template('lista.html')",
+        "detail": "aitividadeflask02.main",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
         "importPath": "atividade flask.main",
         "description": "atividade flask.main",
         "peekOfCode": "def inicio():\n    return render_template('inicio.html')\n@app.route('/cadastro')\ndef pessoa():\n    return render_template('cadastro.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
@@ -203,6 +287,33 @@
         "description": "atividade01.series",
         "peekOfCode": "class Series:\n    nome                = ''\n    sinopse             = ''\n    temporadas          =  ''\n    episodios           = ''\n    duracao             = ''\n    elenco              = ''\n    classificacao       = ''\n    def __str__(self) -> str:\n        return f'{self.nome} - {self.sinopse} - {self.temporadas} - {self.episodios} - {self.duracao} - {self.elenco} - {self.classificacao}'",
         "detail": "atividade01.series",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "atividadeflask03.main",
+        "description": "atividadeflask03.main",
+        "peekOfCode": "def inicio():\n    return render_template('inicio.html')\n@app.route('/lista')\ndef listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividadeflask03.main",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "atividadeflask03.main",
+        "description": "atividadeflask03.main",
+        "peekOfCode": "def listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividadeflask03.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "atividadeflask03.main",
+        "description": "atividadeflask03.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('inicio.html')\n@app.route('/lista')\ndef listar():\n    return render_template('lista.html')\napp.run(host='0.0.0.0', port=80, debug=True)",
+        "detail": "atividadeflask03.main",
         "documentation": {}
     },
     {
@@ -437,6 +548,42 @@
         "description": "Flask.aula02.main",
         "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('inicio.html')\n@app.route('pessoa')\ndef pessoa():\n    return render_template('pessoa.h')\napp.run(debug=True)",
         "detail": "Flask.aula02.main",
+        "documentation": {}
+    },
+    {
+        "label": "Cerveja",
+        "kind": 6,
+        "importPath": "Flask.aula04.main",
+        "description": "Flask.aula04.main",
+        "peekOfCode": "class Cerveja:\n    def __init__(self , nome, estilo, ibu, abv, graduacao):\n        self.nome = nome\n        self.estilo = estilo\n        self.ibu = ibu\n        self.abv = abv\n        self.graduacao = graduacao\napp = Flask(__name__)\n@app.route('/')\ndef inicio():",
+        "detail": "Flask.aula04.main",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "Flask.aula04.main",
+        "description": "Flask.aula04.main",
+        "peekOfCode": "def inicio():\n    return render_template('index.html')\n@app.route('/cerveja/lista')\ndef cerveja__lista():\n    c1 = Cerveja( 'Kaiser', 'pilsen', 10, 15, 15)\n    c2 = Cerveja( 'Skol', 'pilsen', 12, 18, 6)\n    cerveja_lista = [c1, c2]\n    return render_template('cerveja/lista.html' , lista = cerveja_lista)\napp.run(debug=True)",
+        "detail": "Flask.aula04.main",
+        "documentation": {}
+    },
+    {
+        "label": "cerveja__lista",
+        "kind": 2,
+        "importPath": "Flask.aula04.main",
+        "description": "Flask.aula04.main",
+        "peekOfCode": "def cerveja__lista():\n    c1 = Cerveja( 'Kaiser', 'pilsen', 10, 15, 15)\n    c2 = Cerveja( 'Skol', 'pilsen', 12, 18, 6)\n    cerveja_lista = [c1, c2]\n    return render_template('cerveja/lista.html' , lista = cerveja_lista)\napp.run(debug=True)",
+        "detail": "Flask.aula04.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Flask.aula04.main",
+        "description": "Flask.aula04.main",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef inicio():\n    return render_template('index.html')\n@app.route('/cerveja/lista')\ndef cerveja__lista():\n    c1 = Cerveja( 'Kaiser', 'pilsen', 10, 15, 15)\n    c2 = Cerveja( 'Skol', 'pilsen', 12, 18, 6)\n    cerveja_lista = [c1, c2]\n    return render_template('cerveja/lista.html' , lista = cerveja_lista)",
+        "detail": "Flask.aula04.main",
         "documentation": {}
     },
     {
